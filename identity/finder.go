@@ -215,7 +215,7 @@ func (f *Finder) checkOne(sid *searchID, v Identity, depth int) (r FinderResult)
 	}
 }
 
-func (f *Finder) doCheckOne(sid *searchID, v Identity, depth int) FinderResult {
+func (f *Finder) doCheckOne(sid *searchID, v Identity, _ int) FinderResult {
 	id2 := Unwrap(v)
 	if id2 == Anonymous {
 		return FinderNotFound
