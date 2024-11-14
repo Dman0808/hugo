@@ -1,3 +1,4 @@
 {
-    "makefile.makefilePath": "ConsciousAI"
+    "makefile.makefilePath": "ConsciousAI",
+    "vscode-edge-devtools.browserFlavor": "Dev"
 }
